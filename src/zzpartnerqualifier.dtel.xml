@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZPARTNERQUALIFIER</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR1</DOMNAME>
+    <HEADLEN>32</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>32</SCRLEN3>
+    <DDTEXT>Cualificador número interlocutor</DDTEXT>
+    <REPTEXT>Cualificador número interlocutor</REPTEXT>
+    <SCRTEXT_S>CualNumInt</SCRTEXT_S>
+    <SCRTEXT_M>CualNumInt</SCRTEXT_M>
+    <SCRTEXT_L>Cualificador número interlocutor</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

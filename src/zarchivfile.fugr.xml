@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Tratamiento ficheros</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZARCHIVFILETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZARCHIVFILE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZARCHIVFILE_SERVER</FUNCNAME>
+     <SHORT_TEXT>Copiar ficheros servidor</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>SOURCEPATH</PARAMETER>
+       <TYP>TEXT200</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TARGETPATH</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TEXT200</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>LENGTH</PARAMETER>
+       <DBFIELD>SAPB-LENGTH</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>ERROR_FILE</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SOURCEPATH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de texto con longitud 200</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TARGETPATH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo de texto con longitud 200</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LENGTH</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Campo numérico 12</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ERROR_FILE</PARAMETER>
+       <KIND>X</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
