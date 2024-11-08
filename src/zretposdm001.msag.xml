@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRETPOSDM001</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes emitidos por ZPOSDM</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>La operación &amp; ya se trató en el fichero &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Operación &amp; abandonada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Operación &amp; sin ID Transaccion 01 (Datos de cabecera)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Operación &amp; sin ID Transaccion 02 (Lineas ticket)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Operación &amp; sin ID Transaccion 03 (Total ticket)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Operacion &amp; válida.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No se encontró ningún fichero procesable de TPV.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Operacion &amp; de Tienda &amp; registrada en POSDM.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>El número de caja &amp; no tiene tienda SAP asociada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Para el número de caja &amp; no se ha podido determinar una tienda.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Para el código EAN &amp;-&amp; no se ha podido determinar ningun artículo.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>El artículo &amp;-&amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Operación de ZPOSDM no registrada por errores.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Operación &amp; sin ID Transaccion 75 (impuestos)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Operación &amp; sin ID Transaccion 10, 14, 24, 33 o 47 (Formas de pago)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Operación &amp; descartada al tener valor 0.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Acción cancelada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Cierre de caja realizado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Para refacturar ticket todas las lineas deben tener PUniRef informado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>No se ha informado cliente</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Acción cancelada</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Refacturación realizada.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Ticket supervisado</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Para el código EAN de peso &amp;-&amp; no se pudo determinar cantidad.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>Ticket duplicado: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>La tienda del ticket &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>El NIF &amp; no se corresponde con ningún cliente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>El cliente &amp; no existe en el sistema.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>El artículo &amp;-&amp; no está dado de alta para la unidad de medida &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>Importe lineas &lt;&gt; importe formas de pago (&amp;&lt;&gt;&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>Fin del proceso de cierre de caja</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Transacción ZVTA con forma de pago 2000 no permitido.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Art.&amp;-&amp; PVP &lt;= PVP sin IVA (&amp; vs &amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>Linea &amp; con diferente signo en SALESAMOUNT/RETAILQUANTITY</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Linea &amp; con ITEMIDQUALIFIER sin informar</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Art. &amp;-&amp; no catalogado en tienda &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>Idoc erróneo en creación cliente automático, &amp;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>Proceso de anticipos finalizado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>PMP del artículo &amp;-&amp; es 0.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM001</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>Se ha recibido el NIF del cliente en blanco.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

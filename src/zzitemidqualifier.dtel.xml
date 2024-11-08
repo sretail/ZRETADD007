@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZZITEMIDQUALIFIER</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR1</DOMNAME>
+    <HEADLEN>30</HEADLEN>
+    <SCRLEN1>07</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>30</SCRLEN3>
+    <DDTEXT>Cualificador p.identificador a</DDTEXT>
+    <REPTEXT>Cualificador p.identificador a</REPTEXT>
+    <SCRTEXT_S>Cualif.</SCRTEXT_S>
+    <SCRTEXT_M>Cualificador p.ident</SCRTEXT_M>
+    <SCRTEXT_L>Cualificador p.identificador a</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
