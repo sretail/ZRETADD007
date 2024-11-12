@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZRETPOSDM002</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes emitidos desde ZRETPOSDM002</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM002</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Tickets archivados.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM002</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Tickets desarchivados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM002</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Tickets archivados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM002</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Tickets ya desarchivados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM002</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Tickets ya han sido archivados</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZRETPOSDM002</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Tickets ya han sido desarchivados</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

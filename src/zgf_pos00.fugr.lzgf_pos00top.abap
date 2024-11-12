@@ -1,6 +1,0 @@
-FUNCTION-POOL ZGF_POS00.                    "MESSAGE-ID ..
-
-data: BDCDATA LIKE BDCDATA    OCCURS 0 WITH HEADER LINE,
-      MESSTAB LIKE BDCMSGCOLL OCCURS 0 WITH HEADER LINE.
-
-* INCLUDE LZGF_POS00D...                     " Local class definition

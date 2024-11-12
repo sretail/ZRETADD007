@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZRETADD007_DESCR</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>TEXT132</DOMNAME>
+    <HEADLEN>25</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>18</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Descripción del parámetro</DDTEXT>
+    <REPTEXT>Descripción del parámetro</REPTEXT>
+    <SCRTEXT_S>Desc.Parám</SCRTEXT_S>
+    <SCRTEXT_M>Descripción parám.</SCRTEXT_M>
+    <SCRTEXT_L>Descripción del parámetro</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -4,7 +4,6 @@
   <asx:values>
    <AREAT>Tratamiento ficheros</AREAT>
    <INCLUDES>
-    <SOBJ_NAME>LZARCHIVFILETOP</SOBJ_NAME>
     <SOBJ_NAME>SAPLZARCHIVFILE</SOBJ_NAME>
    </INCLUDES>
    <FUNCTIONS>
