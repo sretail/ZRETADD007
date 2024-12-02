@@ -281,6 +281,7 @@ FORM f_start_of_selection .
     append git_monitor.
 
     if lr_idoc_control_new-docnum is not initial.
+*     Si se ha creado IDOC, movemos el fichero a la carpeta de ficheros procesados
       perform f_copiar_fichero
         using
           p_folin
@@ -297,6 +298,26 @@ FORM f_start_of_selection .
           CHANGING
             lf_Error.
       endif.
+*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> APRADAS @ 02.12.2024 15:56:45 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    else.
+*     Si no se ha creado IDOC, movemos el fichero a la carpeta de ficheros erróneos
+      perform f_copiar_fichero
+        using
+          p_folin
+          p_foler
+          lit_dir_list-name
+        CHANGING
+          lf_error.
+
+      if lf_error = ''.
+        perform f_borrar_fichero
+          USING
+            p_folin
+            lit_dir_list-name
+          CHANGING
+            lf_Error.
+      endif.
+*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< APRADAS @ 02.12.2024 15:56:45 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     endif.
 
   ENDLOOP.

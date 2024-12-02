@@ -4,7 +4,7 @@
   <asx:values>
    <TSTC>
     <TCODE>ZPOSDM</TCODE>
-    <PGMNA>ZRETPOSDM001</PGMNA>
+    <PGMNA>/SEI/RETPOS_R01</PGMNA>
     <DYPNO>1000</DYPNO>
     <CINFO>gA==</CINFO>
    </TSTC>
